@@ -7,6 +7,10 @@ It relies on the Docker registry [HTTPS API v2](https://docs.docker.com/registry
 
 `python docker_pull.py hello-world`
 
+`python docker_pull.py jenkins/jenkins`
+
+`python docker_pull.py jenkins/jenkins:latest-jdk17`
+
 `python docker_pull.py mysql/mysql-server:8.0`
 
 `python docker_pull.py mcr.microsoft.com/mssql-tools`
