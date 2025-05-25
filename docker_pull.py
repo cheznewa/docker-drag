@@ -328,7 +328,7 @@ file.write(json.dumps(content))
 file.close()
 
 # Create image tar and clean tmp folder
-docker_tar = repo.replace('/', '_') + '_' + img + '.tar'
+docker_tar = repo.replace('/', '_') + '_' + img + "_" + tag + '.tar'
 sys.stdout.write("Creating archive...")
 sys.stdout.flush()
 tar = tarfile.open(docker_tar, "w")
